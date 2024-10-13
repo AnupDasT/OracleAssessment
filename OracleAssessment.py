@@ -58,6 +58,3 @@ print("\nList of unique customer IDs for each geozone:")
 for geozone, customer_ids in unique_customer_ids_by_geozone.items():
     print(f"Geozone: {geozone}, Unique Customer IDs: {customer_ids}")
 
-
-
-# Complete
