@@ -52,7 +52,7 @@ def test_unique_customer_ids_list_by_geozone():
     # Assert for 'unique_customer_ids_list_by_geozone'
     expected_customer_lists = {
         "us_east": {"2343225"},
-        "us_west": {"1223456", "1233456K"},
+        "us_west": {"1223456", "1233456"},
         "eu_west": {"3244332", "3244132"},
     }
     assert result["unique_customer_ids_list_by_geozone"] == expected_customer_lists, \
